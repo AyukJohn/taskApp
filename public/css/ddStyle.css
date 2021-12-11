@@ -1,0 +1,114 @@
+/* colors:
+backround(
+    deepBlue = rgb(21,20,52), #151434
+    blue = rgb(1,23,62), #01173e
+    )
+
+fontColor(
+    lightBlue = rgb(40,110,224),#268ee0.   
+    orange = rgb(255,178,35), #ffb223
+    )
+
+bg/font(white = rgb(247,245,246), #f7f5f6) */
+
+
+
+
+/* *{
+    background-color:rgb(85, 122, 226);
+} */
+
+body{
+    background-color:#f7f5f6 ;
+    margin: 0%;
+    padding:0%;
+}
+
+.d-menu{
+    border: none !important;
+    background: transparent;
+}
+.d-menu:hover{
+    background:none;
+}
+
+/* .d-menu2{
+    background-color: #ffb223;
+} */
+
+.nav{
+    background-color: rgb(1,23,62);
+}
+
+.navbar-brand, .nav-link{
+    color:rgb(247,245,246) !important ;
+}
+
+.sect1{
+    margin-top: 4%;
+    height: 60vh;
+    background-color: rgb(247,245,246);
+    /* display: none; */
+}
+
+.para1{
+    padding-top: 10em !important;
+}
+
+.card1{
+    background-color: rgb(1,23,62);
+    color:#f7f5f6 ;
+}
+
+.caro1{
+    display: none;
+}
+
+.outText{
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: darkgray;
+}
+
+.outText_holder{
+    margin-top: 10%;
+}
+
+.outText2{
+    font-size: x-large;
+}
+
+
+
+@media (max-width:768px){
+    .sect1{
+        display: none;
+    }
+
+    .img1{
+        margin: 0%;
+    }
+
+    .caro1{
+        display: block;
+    }
+
+    .cards{
+        margin-top: 10%;
+    }
+
+    .btn{
+        margin-left:5%;
+    }
+
+    .para2{
+        padding-left: 5% !important;
+    }
+}
+
+/* @media (max-width:991px){
+    .img1{
+        margin-top: 4%;
+    }
+} */
